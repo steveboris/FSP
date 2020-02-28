@@ -8,7 +8,7 @@ public class Main {
         p.register(ver);
         boolean state = p.login(ver, 7);
         if(state == true)
-            System.out.println("Erfolgreiche Anmeldung!");
+            System.out.println("Erfolgreiche angemeldet!");
         else System.out.println("Anmeldung fehlgeschlagen!");
     }
 }
